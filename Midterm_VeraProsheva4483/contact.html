@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="javascrcontact.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+          <nav>
+            <ul>
+              <li><a href="#">4483</a></li>
+              <li><a href="exams.html">Home</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </header>
+
+      <h1>Enter Contact Info:</h1>
+
+      <form id="frm" name="frm" onsubmit="return check(this)">
+        
+        <label for="surnameLabel">Surname:</label>
+        <input type="text" class="form-control" name="surname" id="surname" size="10" required>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        <label for="nameLabel">Name:</label>
+        <input type="text" step="0.01" class=" form-control" name="name" id="name" size="10">
+            <br>
+            <br>
+            <br>
+            <br>
+   
+        <label for="studentLabel"> Student ID:</label>
+        <input type="number" class="form-control" name="student" id="student" size="10">
+            <br>
+            <br>
+            <br>
+            <br>
+ 
+        <label for="emailLabel">Email:</label>
+        <input type="text" class="form-control" name="email" id="email" size="10">
+            <br>
+            <br>
+            <br>
+            <br>
+    
+        <label for="noteLabel">Note:</label>
+        <input type="text" class="form-control" name="note" id="note" size="10">
+            <br>
+            <br>
+            <br>
+   
+            <button type="submit" class="btn btn-success">SAVE!</button>
+          <br>
+          <br>
+          <br>
+    
+    </div>
+
+</form>
+
+
+</body>
+</html>

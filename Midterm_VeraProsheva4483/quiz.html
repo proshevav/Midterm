@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <scrip src="javascr.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+          <nav>
+            <ul>
+              <li><a href="#">4483</a></li>
+              <li><a href="exams.html">Home</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </header>
+
+      <h1>Simple Quiz!</h1>
+
+      <table style="width:583px">
+        <tr>
+          <td>
+              <div>
+                  <p class="question">1. Inside which HTML element do we put the JavaScript (choose one)</p>
+    
+                <ul>
+                <input class="answer" type="radio" name="q1" value="1">
+                <label id="correctString1">script</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>javascript</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>scripting</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>js</label>
+                </ul>
+              </div>
+          </td>
+          </tr>
+          <tr>    
+            <td>
+                <div>
+                    <p class="question">2. The external JavaScript file must contain the script tag (check all that apply)</p>
+  
+                  <ul>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>True</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>False</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="1">
+                  <label id="correctString2">Both</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>None</label>
+                  </ul>
+                </div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+                <div>
+                    <p class="question">3. How do you write Hello World in an alert box? (Select option)</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>alertBox(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="1">
+                  <label id="correctString3">Alert(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>msg(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>msgBoxl(“Hello World”);</label>
+                  </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+    <br/>
+
+    <div class="submitter">
+        <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+        type="submit" value="Submit" />
+  </div>
+  
+        <div>
+            <h2 class="quizScore" id="userScore"></h2>
+        </div>
+    </div> 
+    
+</body>
+</html>
